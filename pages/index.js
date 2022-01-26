@@ -1,6 +1,13 @@
 import { Box, Button, Text, TextField, Image } from '@skynexui/components'
 import appConfig from '../config.json'
 
+function Gabriel() {
+  console.log("funcionou")
+}
+
+Gabriel()
+
+
 function GlobalStyle() {
   return (
     <style global jsx>{`
